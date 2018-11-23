@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">sample_1</string>
+    <string name="app_name">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">بعدی</string>
+    <string name="skip">بستن</string>
+    <string name="start">ورود به سرشمار!</string>
+
+    <string name="slide_1_title">دسترسی آسان</string>
+    <string name="slide_1_desc">تنها با داشتن اینترنت و بدون نیاز به نصب نرم‌افزار، از خدمات متنوع سرشمار بهرمند شوید.</string>
+
+    <string name="slide_2_title">دانش سرشمار</string>
+    <string name="slide_2_desc">از دانش عظیم و گرانبهای سرشمار، به عنوان یک منبع معتبر در راستای اهداف کلان خود بهره ببرید</string>
+
+    <string name="slide_3_title">جامعه آماری معتبر</string>
+    <string name="slide_3_desc">سوالات خود را از جامعه آماری معتبر سرشمار بپرسید و نتایج را به تفکیک، همراه با نمودار بررسی کنید</string>
+
+    <string name="slide_4_title">بررسی کنید و پاسخ دهید</string>
+    <string name="slide_4_desc">سپس اگر ما را برترین یافتید، ثبت‌نام کنید!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
