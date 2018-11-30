@@ -19,6 +19,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class parent_intro_slider extends AppCompatActivity {
 
     private ViewPager viewPager;
@@ -32,9 +35,9 @@ public class parent_intro_slider extends AppCompatActivity {
 
     // full screen:
     @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-        if (hasFocus) {
+    public void onWindowFocusChanged(boolean yesFocus) {
+        super.onWindowFocusChanged(yesFocus);
+        if (yesFocus) {
             hideSystemUI();
         }
     }
@@ -72,6 +75,10 @@ public class parent_intro_slider extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
+//        String apiJson = "{\"name\":\"Sarshomarapp\",\"fullscreen\":true,\"logo\":\"https://sarshomar.com/static/images/logo.png\",\"intro\":[{\"title\":\"Intro1\",\"desc\":\"Introdesc1\",\"background\":\"#332255\",\"btnRight\":\"Close\",\"btnLeft\":\"Next\",\"img\":\"https://sarshomar.com/static/images/logo.png\"},{\"title\":\"Intro2\",\"desc\":\"Introdesc2\",\"background\":\"#332255\",\"btnRight\":\"Close\",\"btnLeft\":\"Next\",\"img\":\"https://sarshomar.com/static/images/logo.png\"},{\"title\":\"Intro3\",\"desc\":\"Introdesc3\",\"background\":\"#332255\",\"btnRight\":\"Close\",\"btnLeft\":\"Next\",\"img\":\"https://sarshomar.com/static/images/logo.png\"},{\"title\":\"Intro4\",\"desc\":\"Introdesc4\",\"background\":\"#332255\",\"btnRight\":\"Close\",\"btnLeft\":\"Next\",\"img\":\"https://sarshomar.com/static/images/logo.png\"}]}";
+
         super.onCreate(savedInstanceState);
 
         // Checking for first time launch - before calling setContentView()
